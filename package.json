@@ -36,7 +36,9 @@
     "preversion": "yarn run lint && yarn run build && pob-repository-check-clean",
     "release": "pob-repository-check-clean && pob-release",
     "version": "pob-version",
-    "watch": "pob-watch"
+    "watch": "pob-watch",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "lint-staged": {
     "package.json": [
@@ -90,7 +92,8 @@
     "source-map-loader": "^0.2.3",
     "springbokjs-daemon": "^2.3.0",
     "url-loader": "^0.6.2",
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
@@ -114,5 +117,6 @@
   },
   "peerDependencies": {
     "ynnub": "^0.*"
-  }
+  },
+  "snyk": true
 }
