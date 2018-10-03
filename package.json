@@ -81,7 +81,7 @@
     "node-sass": "^4.7.2",
     "offline-plugin": "^4.9.0",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
-    "pobpack-browser": "^3.2.1",
+    "pobpack-browser": "^4.0.0",
     "pobpack-node": "^3.2.1",
     "portscanner": "^2.1.1",
     "postcss": "^6.0.14",
